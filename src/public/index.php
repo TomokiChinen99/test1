@@ -1,2 +1,9 @@
 <?php
-echo 'Welcome TECH QUEST!';
+$num=8;
+if($num<=3){
+    echo"凶";
+}elseif($num>=8){
+    echo"大吉";
+}else{
+    echo"吉";
+}
